@@ -1,0 +1,7 @@
+.navOptions { 
+    width: 64vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+}

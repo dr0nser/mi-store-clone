@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.nav {
+    z-index: 1000;
+    background-color: white;
+    padding: 0.8vmax;
+    padding-right: 8vmax;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(206, 206, 206, 0.815);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    
+    width: 56px;
+    height: 56px;
+    border-radius: 21px;
+    overflow: hidden;
+    position: relative;
+}
+
+#logoImage {
+    background: url("https://i01.appmifile.com/webfile/globalimg/pandora/mi-logo-bg.svg") no-repeat left center;
+    transition: all 0.2s;
+    transform: translateX(-55px);
+}
+
+#logoImage:hover {
+    transform: translateX(0);
+}
+
+.navLinks {
+    background-color: white;
+    color: #707070;
+    text-decoration: none;
+    margin: 1vmax 1.2vmax;
+    font-weight: 700;
+    font-size: 0.67vmax;
+    transition: all 0.15s;
+}
+
+.navLinks:hover {
+    color: #ff6700;
+}
+
+.searchBox {
+    background-color: white;
+    position: relative;
+    left: 5vmax;
+    display: flex;
+    align-items: center;
+}
+
+.searchBox > input {
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid #707070;
+    width: 11vmax;
+    padding: 3px 10px;
+    margin-right: 3px;
+    outline: none;
+    color: #707070;
+    font-size: 13px;
+    font-weight: medium;
+}
+
+.searchBox > svg {
+    background-color: white;
+    fill: rgb(112,112,112);
+}

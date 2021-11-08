@@ -1,0 +1,178 @@
+.footer {
+    background-color: #f5f5f5;
+    padding-top: 5vmax;
+}
+
+.preFooter1 {
+    background-color: white;
+}
+
+.preFooter1 > div {
+    width: 64vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+}
+
+.footer1-detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+    cursor: pointer; 
+    padding: 0.5vmax 0 0.5vmax 0;
+}
+
+.footer1-detail:hover svg {
+    fill: #757575;
+}
+
+.footer1-detail > svg {
+    margin-right: 0.4vmax;
+    fill: #b0b0b0;
+}
+
+.footer1-detail > p {
+    margin-top: 0.9vmax;
+    font-weight: 600;
+    color: #b0b0b0;
+    font-size: 0.8vmax;
+}
+
+.footer1-detail:hover p {
+    color: #757575;
+}
+
+.footer1-detail > p > span {
+    color: #4e4e4e;
+}
+
+.preFooter2 {
+    padding: 1vmax 0 1vmax 0;
+}
+
+.preFooter2 h5 {
+    font-size: 18px;
+}
+
+.preFooter2 > div {
+    padding: 1vmax 0 1vmax 0;
+    display: flex;
+    width: 64vw;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-input > div {
+    background-color: white;
+    padding: 5px;
+    border: 1px solid #e0e0e0;
+}
+
+.footer-input > div > input {
+    outline: none;
+    border: none;
+    font-size: 14px;
+    padding-left: 0.5vmax;
+    width: 12vmax;
+}
+
+.footer-input > div > button {
+    background: none;
+    border: none;
+}
+
+.preFooter2 > div > div > h5 {
+    margin: 0;
+}
+
+.preFooter2 > div > ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.preFooter2 > div > ul > li {
+    padding: 0.3vmax;
+    margin-left: 1vmax;
+}
+
+.preFooter2 > div > ul > li > a > svg {
+    fill: #b0b0b0;
+}
+
+.preFooter2 > div > ul > li > a > svg:hover {
+    fill: #757575;
+}
+
+.footerLinks {
+    background-color: #212121;
+}
+
+.footerLinks > div {
+    padding: 3vmax 0 3vmax 0;
+    width: 64vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerLinksHeading {
+    color: #b0b0b0;
+    font-weight: 600;
+    font-size: 0.9vmax;
+}
+
+.footerlink {
+    text-decoration: none;
+    color: #b0b0b0;
+    padding: 0.3vmax 0 0.3vmax 0;
+    font-size: 0.75vmax;
+}
+
+.footerlink:hover {
+    color: white;
+}
+
+
+.footerLinksSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerCopyright {
+    background-color: #212121;
+}
+
+.footerCopyright > div {
+    border-top: 1px solid #b0b0b057;
+    width: 64vw;
+    margin: auto;
+    padding: 1.1vmax 0 0.1vmax 0;
+}
+
+.footerCopyright > div > p {
+    color: #b0b0b0;
+    font-size: 0.7vmax;
+}
+
+.footerLinks > div > div:last-child > p {
+    color: #b0b0b0;
+    font-size: 12.5px;
+}
+
+.footerLinks > div > div:last-child > button {
+    background: transparent;
+    border: 1px solid #f5f5f5;
+    padding: 0.4vmax 2vmax 0.4vmax 2vmax;
+    color: #f5f5f5;
+    font-size: small;
+    transition: all 0.2s;
+}
+
+.footerLinks > div > div:last-child > button:hover {
+    background: #f5f5f5;
+    color: #212121;
+}

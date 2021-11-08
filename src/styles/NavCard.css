@@ -1,0 +1,20 @@
+.navCard > div {
+    width: 10vmax;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 1.5vmax;
+}
+
+.navCard > div > img {
+    width: 8vmax;
+    margin: 1vmax 0 0.1vmax 0;
+}
+
+.navCard > div > p {
+    margin: 0;
+}
+
+.navCard > div > span {
+    color: orangered;
+    margin-bottom: 1vmax;
+}

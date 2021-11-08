@@ -1,0 +1,25 @@
+.hotAccessories {
+    background-color: #f5f5f5;
+    padding-bottom: 1vmax;
+}
+
+.hotAccessoriesInner {
+    display: flex;
+    width: 64vw;
+    margin: auto;
+}
+
+.hotAccessoriesInner > div:first-child > img {
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.hotAccessoriesInner > div:first-child > img:hover {
+    box-shadow: 0 6px 16px rgba(53, 53, 53, 0.363);
+    transform: translateY(-2px);
+}
+
+.hotAccessoriesInner > div:last-child {
+    display: flex;
+    flex-wrap: wrap;
+}

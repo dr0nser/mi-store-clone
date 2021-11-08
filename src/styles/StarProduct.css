@@ -1,0 +1,32 @@
+.starProduct {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0.5vmax;
+    padding-bottom: 1.4vmax;
+    background-color: #f5f5f5;
+}
+
+.left {
+    margin-right: 2px;
+}
+
+.upperRight {
+    display: flex;
+}
+
+.upperRight a:last-child {
+    margin-left: 2px;
+}
+
+.lowerRight {
+    margin-top: 2px;
+}
+
+.starProduct img {
+    transition: all 0.4s;
+}
+
+.starProduct img:hover {
+    box-shadow: 0 6px 16px rgba(53, 53, 53, 0.363);
+}

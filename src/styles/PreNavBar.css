@@ -1,0 +1,51 @@
+.preNav {
+    background-color: rgb(29, 28, 28);
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    padding-left: 14%;
+    padding-right: 3%;
+    color: white;
+}
+
+.preNav > div {
+    background-color: rgb(29, 28, 28);
+    padding: 0 3vmax;
+    display: flex;
+    align-items: center;
+}
+
+.preNav > div > span {
+    background-color: rgb(29, 28, 28);
+    color: #a7a7a7;
+    font-weight: 100; 
+    font-size: 0.7vmax;
+}
+
+.preNav > div > a {
+    background-color: rgb(29, 28, 28);
+    color: #a0a0a0;
+    display: flex;
+    align-items: center;
+    font-size: 0.58vmax;
+    letter-spacing: 0.01vmax;
+    font-family: sans-serif;
+    font-weight: 300;
+    margin: 0.60vmax;
+    padding-left: 0.35vmax;
+    padding-right: 0.35vmax;
+    text-decoration: none;
+}
+
+.preNav > div svg {
+    background-color: rgb(29, 28, 28);
+    fill: rgb(167,167,167);
+    padding-right: 4px;
+}
+
+.preNav > div svg:hover {
+    fill: rgb(255,255,255);
+}
+
+.preNav > div > a:hover {
+    color: #ffffff;
+}

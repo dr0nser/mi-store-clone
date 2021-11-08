@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.hotItemCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 32%;
+    transition: all 0.5s;
+    margin: 0 0 0.5vmax 0.5vmax;
+    padding: 0.5vmax 0.8vmax 0 0.8vmax;
+    background-color: white;
+}
+
+.hotItemCard:hover {
+    box-shadow: 0 6px 16px rgba(53, 53, 53, 0.363);
+    transform: translateY(-1px);
+    cursor: pointer;
+}
+
+.hotItemCard > img {
+    width: 80%;
+}
+
+.hotItemCard > p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #616161;
+    font-size: 12px;
+}
+
+.hotItemCard > span {
+    margin: -1vmax 0 1vmax 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #ff6700;
+    font-size: 12px;
+}
